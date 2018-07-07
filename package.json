@@ -1,6 +1,6 @@
 {
   "name": "json-messages",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A helper library for application messaging in json api's",
   "author": "Wes Todd <wes@wesleytodd.com>",
   "keywords": [
