@@ -1,0 +1,28 @@
+{
+  "name": "json-messages",
+  "version": "0.0.0",
+  "description": "A helper library for application messaging in json api's",
+  "author": "Wes Todd <wes@wesleytodd.com>",
+  "keywords": [
+    "json",
+    "api",
+    "application messaging",
+    "errors",
+    "error messages"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/standard-json-messages"
+  },
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublushOnly": "npm t",
+    "postpublish": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  }
+}
